@@ -26,3 +26,7 @@ section {
   text-indent: 1.5em;
   text-align: justify;
 }
+
+.content-p a {
+  color: inherit
+}
