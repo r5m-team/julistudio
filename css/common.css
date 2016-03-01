@@ -1,0 +1,28 @@
+html, body {
+  /*height: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;*/
+  background: #f8f8f8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  /*min-width: 100%;*/
+}
+
+section {
+  background: transparent;
+}
+
+.flexible-container {
+  min-width: 600px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.content-p {
+  text-indent: 1.5em;
+  text-align: justify;
+}

@@ -1,0 +1,82 @@
+.new-offer {
+  background: url('../images/bg_webinar.jpg') no-repeat;
+  background-size: cover;
+  padding: 40px;
+  font-size: 1.2rem;
+}
+
+.new-offer::before {
+  content: '';
+  display: inline-block;
+  height: 120px;
+  vertical-align: middle;
+}
+
+.new-offer-container {
+  background: rgba(0,0,0,0.75);
+  /*height: 80%;*/
+  width: 100%;
+  min-height: 120px;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.new-offer-container-wrapper {
+
+  text-align: center;
+  color: #fafafa;
+  width: 100%;
+}
+
+.new-offer-container-wrapper::before {
+  content: '';
+  display: inline-block;
+  height: 120px;
+  vertical-align: middle;
+}
+
+.new-offer-container-wrapper__text {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.new-offer__heading {
+  margin: 10px 0 0 0;
+}
+
+.offer__subscribe {
+  color: white;
+  border: solid 1px;
+
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.offer__subscribe:hover {
+  background: #f8f8f8;
+  color: black;
+}
+
+.new-offer__content {
+  margin: 0;
+}
+
+.new-offer__heading-small {
+  font-size: 0.8em;
+  line-height: 1;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
+.offer__subscribe-wrapper {
+  margin-top: 40px;
+}
+
+
+.r5m-dimmer .r5mFeedback p {
+  color: #2b2a29;
+}

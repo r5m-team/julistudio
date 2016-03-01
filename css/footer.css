@@ -1,0 +1,23 @@
+/*footer {
+  display: none;
+  max-width: 600px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 100%;
+}*/
+
+
+footer.visible {
+  display: block;
+}
+
+footer div {
+  border-top: dashed 1px #ccc;
+  font-size: 0.8rem;
+  padding: 10px;
+}
+
+footer a {
+  color: #666;
+}

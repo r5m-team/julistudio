@@ -1,0 +1,27 @@
+.contacts {
+  margin: 20px 0;
+}
+
+.contacts__entry {
+  margin: 0;
+}
+
+.contacts__entry__value {
+  font-weight: 600;
+}
+
+.contacts__entry__label {
+  display: inline-block;
+  min-width: 200px;
+}
+
+.contacts__entry__value a {
+  font: inherit;
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+}
+
+.contacts__entry__value a:hover {
+  text-decoration: underline;
+}

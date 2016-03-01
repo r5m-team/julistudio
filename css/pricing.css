@@ -1,0 +1,29 @@
+.pricing {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pricing li {
+  border-bottom: 1px dotted #C2C2C2;
+  /* Необязателен. Здесь задается толщина, тип и цвет точек */
+  position: relative;
+  padding: 0 100px 0 0;
+  margin-bottom: 5px;
+  /* Необязателен. Задается для установки расстояния между блоками li */
+}
+
+.pricing-ending {
+  float: right;
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  background: #f8f8f8;
+  padding: 0 0 0 5px;
+}
+
+.pricing-begin {
+  position: relative;
+  bottom: -5px;
+  background: #f8f8f8;
+  padding: 0 10px 0 0;
+}
