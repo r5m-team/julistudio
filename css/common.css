@@ -27,6 +27,7 @@ section {
   text-align: justify;
 }
 
-.content-p a {
+.content-p a,
+.content-p-order a { 
   color: inherit
 }
