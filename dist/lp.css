@@ -700,6 +700,23 @@ footer a {
 .contacts__entry__value a:hover {
   text-decoration: underline;
 }
+.about__image {
+  float: left;
+  width: 150px;
+  height: 213px;
+  margin: 0 40px 0 0;
+  background: url(../images/about_bw.jpg) no-repeat;
+  background-size: cover;
+}
+.about__image:hover {
+  background: url(../images/about_color.jpg) no-repeat;
+}
+.content-p-order {
+  margin: 0;
+}
+.order-subheader {
+  margin-bottom: 5px;
+}
 .new-offer {
   background: url(../images/bg_webinar.jpg) no-repeat;
   background-size: cover;
