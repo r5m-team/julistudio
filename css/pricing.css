@@ -118,6 +118,7 @@
 }
 
 .pricing-item__content__button {
+  border-radius: 2px;
   color: white;
   background: #29a0d9;
   border: solid 1px #1e7ba7;
@@ -131,7 +132,7 @@
   transition: opacity 0.5s, height 0s 0.5s;
 }
 
-.pricing-item__content__button:hover {  
+.pricing-item__content__button:hover {
   background: #2187b8;
 }
 
@@ -147,4 +148,17 @@
   opacity: 1;
   height: auto;
   margin: 5px 0 0;
+}
+
+
+.r5m-dimmer .r5mFeedback__submit-button {
+  background: #29a0d9;
+  border: solid 1px #1e7ba7;
+  color: #f8f8f8;
+  border-radius: 2px;
+}
+
+.r5m-dimmer .r5mFeedback__submit-button:hover {
+  background: #2187b8;
+  color: #f8f8f8;
 }
