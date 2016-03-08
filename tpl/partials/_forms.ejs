@@ -118,5 +118,37 @@
 
       </div>
     </div>
+
+    <!-- Order form -->
+    <div class="r5m-dimmer-wrapper r5m-dimmer-order hidden">
+      <div class="r5mFeedback">
+        <form action="/feedback" class="r5mFeedback__form">
+          <button class="r5mFeedback__close-button r5m-action" data-action="r5mDimmer-close" type="button">
+            <i class="fa fa-times"></i>
+          </button>
+          <h2 class="r5mFeedback__form__header">Оставить Заявку</h2>
+          <label class="r5mFeedback__label">
+            <span class="r5mFeedback__placeholder">Введите Ваше имя*</span>
+            <input class="r5mFeedback__input" name="name" required="" type="text">
+          </label>
+          <%# <label class="r5mFeedback__label">
+            <span class="r5mFeedback__placeholder">Телефон*</span>
+            <input class="r5mFeedback__input" name="phone" required="" type="text">
+          </label>%>
+          <label class="r5mFeedback__label">
+            <span class="r5mFeedback__placeholder">E-mail или телефон*</span>
+            <input class="r5mFeedback__input" name="email" type="text" required>
+          </label>
+          <label class="r5mFeedback__label">
+            <span class="r5mFeedback__placeholder">Комментарии</span>
+            <textarea class="r5mFeedback__text" name="text"></textarea>
+          </label>
+          <button class="r5mFeedback__submit-button submit-button" type="submit">
+            Оставить заявку
+          </button>
+        </form>
+
+      </div>
+    </div>
   </div>
 </div>
