@@ -19,6 +19,25 @@
   margin-right: 0;
 }
 
+@media all and (max-width: 800px) {
+  .pricing-item {
+    position: relative;
+    width: 49.5%;
+    height: auto;
+    display: inline-block;
+    margin: 0 1% 1% 0;
+    color: white;
+  }
+
+  .pricing-item:nth-child(3n) {
+    margin-right: 1%;
+  }
+
+  .pricing-item:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
 .pricing-item__img {
   /*-ms-transition: opacity 0.5s;
   -webkit-transition: opacity 0.5s;
