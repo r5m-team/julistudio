@@ -932,3 +932,15 @@ footer a {
   background: #2187b8;
   color: #f8f8f8;
 }
+.pricing-item__content.online::before {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  height: 30px;
+  width: 30px;
+  content: " ";
+  display: block;
+  background: url(../../images/pricing/icon_online.png) no-repeat;
+  background-size: 30px auto;
+  background-position: bottom right;
+}
