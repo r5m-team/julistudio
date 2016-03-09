@@ -1,0 +1,6 @@
+@media all and (max-width: 600px) {
+  @import common.css;
+  @import header.css;
+  @import pricing.css;
+  @import index.css;
+}

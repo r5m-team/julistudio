@@ -1,0 +1,42 @@
+.pricing-item {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 0 0 10px 0;
+  color: white;
+}
+
+.pricing-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.pricing-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+
+.pricing-item .pricing-item__content__button {
+  opacity: 1;
+  padding: 7px 14px;
+  height: auto;
+  margin-top: 10px;
+  transition: opacity 0.5s, height 0;
+}
+
+.pricing-item .pricing-item__price {
+  opacity: 1;
+  height: auto;
+  margin: 5px 0 0;
+}
+
+.pricing-item .pricing-item__img.color {
+  display: inline;
+  opacity: 1;
+  /*width: auto;
+  max-width: none;*/
+}
+
+.pricing-item .pricing-item__content-wrapper {
+  background: rgba(0, 0, 0, 0.65);
+}

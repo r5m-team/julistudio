@@ -944,3 +944,81 @@ footer a {
   background-size: 30px auto;
   background-position: bottom right;
 }
+@media all and (max-width: 600px) {
+  .flexible-container {
+  min-width: 280px;
+}
+.r5m-dimmer {
+  text-align: center;
+}
+.r5m-dimmer .r5mFeedback {
+  width: 280px;
+}
+.r5m-dimmer .r5mFeedback__submit-button {
+  width: 280px;
+}
+.r5m-dimmer__container::before {
+  margin: 0;
+}
+  .header-logo__image {
+  max-width: 100%;
+  height: auto;
+}
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
+nav li a {
+  white-space: nowrap;
+}
+  .pricing-item {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 0 0 10px 0;
+  color: white;
+}
+.pricing-item:nth-child(3n) {
+  margin-right: 0;
+}
+.pricing-item:nth-child(2n) {
+  margin-right: 0;
+}
+.pricing-item .pricing-item__content__button {
+  opacity: 1;
+  padding: 7px 14px;
+  height: auto;
+  margin-top: 10px;
+  transition: opacity 0.5s, height 0;
+}
+.pricing-item .pricing-item__price {
+  opacity: 1;
+  height: auto;
+  margin: 5px 0 0;
+}
+.pricing-item .pricing-item__img.color {
+  display: inline;
+  opacity: 1;
+  
+}
+.pricing-item .pricing-item__content-wrapper {
+  background: rgba(0, 0, 0, 0.65);
+}
+  .new-offer {
+  padding: 0;
+}
+.about__image {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  background: url(../images/about_color.jpg) no-repeat;
+}
+.contacts__entry__label {
+  width: 100%;
+}
+.contacts__entry__value {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+}
