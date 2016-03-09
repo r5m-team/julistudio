@@ -860,7 +860,7 @@ footer a {
   right: 0;
   
   white-space: nowrap;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.55);
   transition: background-color 0.5s;
 }
 .pricing-item__content-wrapper:before {
@@ -876,6 +876,7 @@ footer a {
   
   white-space: normal;
   padding: 20px;
+  text-shadow: 0 0 2px black;
 }
 .pricing-item__price {
   margin: 0;

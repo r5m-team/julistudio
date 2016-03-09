@@ -87,7 +87,7 @@
   right: 0;
   /* May want to do this if there is risk the container may be narrower than the element inside */
   white-space: nowrap;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.55);
   transition: background-color 0.5s;
 }
 
@@ -111,6 +111,8 @@
   /*width: 300px;*/
   white-space: normal;
   padding: 20px;
+
+  text-shadow: 0 0 2px black;
 }
 
 .pricing-item__price {
