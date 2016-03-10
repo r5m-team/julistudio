@@ -5,11 +5,53 @@
   font-size: 1.2rem;
 }
 
+.new-offer-sale {
+  background: url('../images/bg_sale.jpg') no-repeat;
+  background-size: cover;
+  padding: 40px;
+  font-size: 1.2rem;
+
+}
+
+.new-offer-price {
+  color: red
+}
+
 .new-offer::before {
   content: '';
   display: inline-block;
   height: 120px;
   vertical-align: middle;
+}
+
+.new-offer__heading-big {
+  font-size: 2rem;
+  color: red;
+}
+
+.new-offer__heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.new-offer__heading strike {
+  color: black;
+}
+
+.new-offer-sale ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.new-offer-sale .offer__subscribe {
+  color: black;
+  border-color: black;
+}
+
+.new-offer-sale .offer__subscribe:hover {
+  background: black;
+  background: rgba(0,0,0,0.8);
+  color: #f8f8f8;
 }
 
 .new-offer-container {
@@ -21,6 +63,15 @@
   box-sizing: border-box;
   display: inline-block;
   vertical-align: middle;
+}
+
+.new-offer-sale .new-offer-container {
+  background: rgba(255,255,255, 0.75);
+  padding: 40px 20px;
+}
+
+.new-offer-sale .new-offer-container-wrapper {
+  color: black;
 }
 
 .new-offer-container-wrapper {
@@ -52,10 +103,13 @@
   border-radius: 4px;
   padding: 10px 20px;
   text-decoration: none;
+
+  transition: background-color 0.1s, color 0.1s;
 }
 
 .offer__subscribe:hover {
   background: #f8f8f8;
+  background: rgba(255,255,255,0.8);
   color: black;
 }
 
@@ -131,6 +185,8 @@
   font-size: 20px;
   cursor: pointer;
 }
+
+
 
 .r5mFeedback__submit-button:hover {
   background: #2187b8;
