@@ -812,7 +812,8 @@ footer a {
   display: inline-block;
   vertical-align: middle;
 }
-.new-offer__heading {
+.new-offer__heading,
+.new-offer__heading-middle, {
   margin: 10px 0 0 0;
 }
 .offer__subscribe {
