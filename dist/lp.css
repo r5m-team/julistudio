@@ -710,11 +710,22 @@ footer a {
   width: 150px;
   height: 207px;
   margin: 0 40px 0 0;
-  background: url(../images/about_bw.jpg) no-repeat;
-  background-size: cover;
+  position: relative;
 }
-.about__image:hover {
-  background: url(../images/about_color.jpg) no-repeat;
+.about__image__img {
+  position: absolute;
+  top: 0;
+  left: 0
+}
+.about__image__img.placeholder {
+  position: static;
+}
+.about__image__img.color {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.about__image__img.color:hover {
+  opacity: 1;
 }
 .content-p-order {
   margin: 0;
