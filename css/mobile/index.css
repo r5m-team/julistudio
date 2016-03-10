@@ -1,6 +1,18 @@
-.new-offer {
+.new-offer,
+.new-offer-sale {
   padding: 0;
 }
+
+.new-offer__heading,
+.new-offer__heading-big {
+  font-size: 1.2rem;
+}
+
+.new-offer-sale ul,
+.new-offer__content.notice {
+  text-align: left;
+}
+
 
 .about__image {
   float: none;

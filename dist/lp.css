@@ -820,6 +820,7 @@ footer a {
   border-radius: 4px;
   padding: 10px 20px;
   text-decoration: none;
+  display: inline-block;
   transition: background-color 0.1s, color 0.1s;
 }
 .offer__subscribe:hover {
@@ -1119,8 +1120,17 @@ nav li a {
 .pricing-item .pricing-item__content-wrapper {
   background: rgba(0, 0, 0, 0.65);
 }
-  .new-offer {
+  .new-offer,
+.new-offer-sale {
   padding: 0;
+}
+.new-offer__heading,
+.new-offer__heading-big {
+  font-size: 1.2rem;
+}
+.new-offer-sale ul,
+.new-offer__content.notice {
+  text-align: left;
 }
 .about__image {
   float: none;
@@ -1146,5 +1156,11 @@ nav li a {
   width: 100%;
   max-width: 400px;
   margin: 0 auto 10px auto;
+}
+.new-offer-sale .new-offer-container {
+  padding: 20px 0;
+}
+.new-offer-sale .offer__subscribe-wrapper {
+  margin-top: 10px;
 }
 }

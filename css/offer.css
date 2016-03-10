@@ -103,6 +103,7 @@
   border-radius: 4px;
   padding: 10px 20px;
   text-decoration: none;
+  display: inline-block;
 
   transition: background-color 0.1s, color 0.1s;
 }
