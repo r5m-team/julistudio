@@ -735,7 +735,7 @@ footer a {
   vertical-align: middle;
 }
 .new-offer-container {
-  background: rgba(0,0,0,0.75);
+  background: rgba(0, 0, 0, 0.75);
   
   width: 100%;
   min-height: 120px;
@@ -788,6 +788,59 @@ footer a {
 }
 .r5m-dimmer .r5mFeedback p {
   color: #2b2a29;
+}
+.offer {
+  margin-top: 20px;
+}
+.offer .offer__feedback-wrapper {
+  width: 60%;
+  max-width: 500px;
+  min-width: 280px;
+  float: left;
+  padding: 0 20px 0;
+  box-sizing: border-box;
+}
+.offer-bg {
+  position: relative;
+  float: left;
+  width: 40%;
+}
+.offer-bg__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+}
+.offer-bg__img.placeholder {
+  position: static;
+  max-width: 100%;
+}
+.offer-caption {
+  margin: 0 0 10px 0;
+  text-indent: 1.2em;
+}
+.offer-bg__img.color {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.offer-bg__img.color:hover {
+  opacity: 1;
+}
+.r5mFeedback__submit-button  {
+  background: #29a0d9;
+  border: solid 1px #1e7ba7;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 2px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.r5mFeedback__submit-button:hover {
+  background: #2187b8;
+}
+.r5mFeedback__input,
+.r5mFeedback__text {
+  border-radius: 2px;
 }
 .pricing {
   list-style-type: none;
@@ -877,6 +930,14 @@ footer a {
   white-space: normal;
   padding: 20px;
   text-shadow: 0 0 2px black;
+}
+.pricing-item__content a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+.pricing-item__content a:hover {
+  text-decoration: underline;
 }
 .pricing-item__price {
   margin: 0;
@@ -1020,5 +1081,17 @@ nav li a {
 .contacts__entry__value {
   display: inline-block;
   margin-bottom: 10px;
+}
+  .offer .offer__feedback-wrapper {
+  max-width: 100%;
+  width: 100%;
+  float: none;
+  padding: 0;
+}
+.offer-bg {
+  float: none;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 10px auto;
 }
 }

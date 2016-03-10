@@ -13,7 +13,7 @@
 }
 
 .new-offer-container {
-  background: rgba(0,0,0,0.75);
+  background: rgba(0, 0, 0, 0.75);
   /*height: 80%;*/
   width: 100%;
   min-height: 120px;
@@ -24,7 +24,6 @@
 }
 
 .new-offer-container-wrapper {
-
   text-align: center;
   color: #fafafa;
   width: 100%;
@@ -50,7 +49,6 @@
 .offer__subscribe {
   color: white;
   border: solid 1px;
-
   border-radius: 4px;
   padding: 10px 20px;
   text-decoration: none;
@@ -76,7 +74,70 @@
   margin-top: 40px;
 }
 
-
 .r5m-dimmer .r5mFeedback p {
   color: #2b2a29;
+}
+
+.offer {
+  margin-top: 20px;
+}
+.offer .offer__feedback-wrapper {
+  width: 60%;
+  max-width: 500px;
+  min-width: 280px;
+  float: left;
+  padding: 0 20px 0;
+  box-sizing: border-box;
+}
+
+.offer-bg {
+  position: relative;
+  float: left;
+  width: 40%;
+}
+
+.offer-bg__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+}
+
+.offer-bg__img.placeholder {
+  position: static;
+  max-width: 100%;
+}
+
+.offer-caption {
+  margin: 0 0 10px 0;
+  text-indent: 1.2em;
+}
+
+.offer-bg__img.color {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.offer-bg__img.color:hover {
+  opacity: 1;
+}
+
+.r5mFeedback__submit-button  {
+  background: #29a0d9;
+  border: solid 1px #1e7ba7;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 2px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.r5mFeedback__submit-button:hover {
+  background: #2187b8;
+}
+
+
+.r5mFeedback__input,
+.r5mFeedback__text {
+  border-radius: 2px;
 }

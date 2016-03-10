@@ -115,6 +115,16 @@
   text-shadow: 0 0 2px black;
 }
 
+.pricing-item__content a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.pricing-item__content a:hover {
+  text-decoration: underline;
+}
+
 .pricing-item__price {
   margin: 0;
   margin-bottom: -1rem;

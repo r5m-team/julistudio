@@ -1,5 +1,6 @@
 /* CONFIGS */
-var htmlFiles = ['index', 'contacts', 'pricing', 'about'];
+var htmlFiles = ['index', 'contacts', 'pricing', 'about', '404',
+  'consulting', 'complex', 'colors', 'shopping_4', 'shopping_8', 'styles', 'correction', 'wardrobe'];
 
 /* Gulp tasks */
 var gulp = require('gulp');
