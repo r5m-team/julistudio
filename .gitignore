@@ -1,4 +1,5 @@
 node_modules/
 engine/
-dist/html/
+dist/
 bower_components/
+tmp/
