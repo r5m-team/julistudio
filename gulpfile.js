@@ -18,7 +18,7 @@ htmlFiles.forEach(function (fileName) {
 
 gulp.task('deploy', function () {
 	return gulp.src('./dist/**/*')
-		.pipe(ghPages());
+		.pipe(ghPages({remoteUrl:'git@github.com:r5m-team/julistudio.git'}));
 });
 
 gulp.task('daemon', function () {
@@ -63,6 +63,10 @@ gulp.task('fonts', function () {
 	gulp.src(['fonts/**/*']).pipe(gulp.dest('./dist/fonts'));
 });
 
+gulp.task('gh-files', function () {
+	gulp.src(['CNAME']).pipe(gulp.dest('./dist/'));
+});
+
 
 // Compile r5m-cms STYLES & all dependencies to dist/lp.css
 gulp.task('css', shell.task([
@@ -96,4 +100,4 @@ gulp.task('install', shell.task([
 	git pull origin master;'
 ]));
 
-gulp.task('default', ['js', 'css', 'html-render', 'images', 'fonts', 'daemon']);
+gulp.task('default', ['js', 'css', 'html-render', 'images', 'fonts', 'gh-files', 'daemon']);

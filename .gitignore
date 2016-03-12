@@ -3,3 +3,4 @@ engine/
 dist/
 bower_components/
 tmp/
+.publish/
