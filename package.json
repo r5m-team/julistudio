@@ -1,21 +1,46 @@
 {
-  "name": "r5m-lp",
-  "version": "0.0.4",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"name": "r5m-lp",
+	"version": "0.0.4",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "mikhael",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:r5m-team/julistudio.git"
+	},
+	"r5m": {
+    "deployTo": "git@github.com:r5m-team/julistudio.git",
+    "htmlFiles": [
+			"index",
+			"contacts",
+			"pricing",
+			"about",
+			"404",
+			"consulting",
+			"complex",
+			"colors",
+			"shopping_4",
+			"shopping_8",
+			"styles",
+			"correction",
+			"wardrobe"
+    ],
+    "minifyHtml": true,
+    "clientVersion": "v0.0.4"
   },
-  "author": "mikhael",
-  "license": "ISC",
-  "dependencies": {
+	"dependencies": {
     "bower": "^1.7.7",
     "browser-sync": "^2.11.1",
     "ejs-on-command": "https://github.com/r5m-team/ejs-on-command.git",
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-gh-pages": "^0.5.4",
     "gulp-shell": "^0.5.2",
-    "html-minifier": "^1.1.1",
+    "html-minifier": "^1.2.0",
+    "merge-stream": "^1.0.0",
     "requirejs": "^2.1.22"
   }
 }
