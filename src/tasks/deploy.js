@@ -20,7 +20,7 @@ function getRemoteUrl(options) {
 
 module.exports = function (options) {
 	return function () {
-		gulp.src('./dist/**/*')
+		return gulp.src('dist/**/*')
 			.pipe(ghPages({
 				"remoteUrl": getRemoteUrl(options)
 			}));

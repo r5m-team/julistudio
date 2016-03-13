@@ -3,7 +3,7 @@ var shell = require('gulp-shell');
 
 module.exports = function () {
 	return function () {
-		gulp.src(['bower_components/requirejs/require.js'])
+		return gulp.src(['bower_components/requirejs/require.js'])
 			.pipe(shell([
 				'./node_modules/.bin/r.js -o \
 			generateSourceMaps=true \
