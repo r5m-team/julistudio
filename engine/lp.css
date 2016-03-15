@@ -907,6 +907,12 @@ footer a {
 .r5mFeedback__text {
   border-radius: 2px;
 }
+.r5mFeedback__privacy-statement a {
+  color: #666;
+}
+.offer__feedback .r5mFeedback__privacy-statement {
+  margin: 0 0 10px 0;
+}
 .pricing {
   list-style-type: none;
   padding: 0;
