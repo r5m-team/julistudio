@@ -30,7 +30,7 @@
 			"wardrobe"
     ],
     "minifyHtml": true,
-    "clientVersion": "v0.0.5"
+    "clientVersion": "v0.0.6"
   },
 	"dependencies": {
     "bower": "^1.7.7",
