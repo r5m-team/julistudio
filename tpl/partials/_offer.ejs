@@ -7,40 +7,47 @@
   <div class="offer__feedback-wrapper">
     <div class="offer__feedback">
       <div class="r5mFeedback offer__feedback__form">
-      <% if(locals.is404) { %>
-      <p class="offer-caption">
-          Я и моя команда еще работаем над этой страницей. Пожалуйста, заполните форму ниже для получения подробного описания услуги.
-          <br/>Вы также можете задать интересующие Вас вопросы, и я с удовольствием на них отвечу.
-        </p>
-      <% } else { %>
-        <p class="offer-caption">
-          Вы также можете задать интересующие Вас вопросы с помощью формы ниже, и я с удовольствием на них отвечу.
-        </p>
-      <% } %>
-      <form action="/feedback" class="r5mFeedback__form">
-        <label class="r5mFeedback__label">
-          <span class="r5mFeedback__placeholder">Введите Ваше имя*</span>
-          <input class="r5mFeedback__input" name="name" required type="text"/>
-        </label>
-        <%# <label class="r5mFeedback__label">
+        <% if(locals.is404) { %>
+          <p class="offer-caption">
+            Я и моя команда еще работаем над этой страницей. Пожалуйста, заполните форму ниже для получения подробного описания услуги.
+            <br/>Вы также можете задать интересующие Вас вопросы, и я с удовольствием на них отвечу.
+          </p>
+        <% } else { %>
+          <p class="offer-caption">
+            Вы также можете задать интересующие Вас вопросы с помощью формы ниже, и я с удовольствием на них отвечу.
+          </p>
+        <% } %>
+        <form action="/feedback" class="r5mFeedback__form">
+          <label class="r5mFeedback__label">
+            <span class="r5mFeedback__placeholder">Введите Ваше имя*</span>
+            <input class="r5mFeedback__input" name="name" required type="text"/>
+          </label>
+          <%# <label class="r5mFeedback__label">
               <span class="r5mFeedback__placeholder">Телефон*</span>
               <input class="r5mFeedback__input" name="phone" required type="text" />
             </label>%>
-        <label class="r5mFeedback__label last">
-          <span class="r5mFeedback__placeholder">E-mail или телефон*</span>
-          <input class="r5mFeedback__input" name="email" type="text" required/>
-        </label>
-        <label class="r5mFeedback__label">
-          <span class="r5mFeedback__placeholder">Ваш вопрос</span>
-          <textarea class="r5mFeedback__text" name="text"></textarea>
-        </label>
-        <input type="hidden" name="page" value="<%= locals.image404 ? subtitle : ''%>"/>
-        <button class="r5mFeedback__submit-button submit-button r5m-action" type="submit">
-          <i class="fa fa-check"></i>
-          Получить консультацию
-        </button>
-      </form>
+          <label class="r5mFeedback__label last">
+            <span class="r5mFeedback__placeholder">E-mail или телефон*</span>
+            <input class="r5mFeedback__input" name="email" type="text" required/>
+          </label>
+          <label class="r5mFeedback__label">
+            <span class="r5mFeedback__placeholder">Ваш вопрос</span>
+            <textarea class="r5mFeedback__text" name="text"></textarea>
+          </label>
+          <input type="hidden" name="page" value="<%= locals.image404 ? subtitle : ''%>"/>
+          <div class="r5mFeedback__privacy-statement-container">
+            <p class="r5mFeedback__privacy-statement">
+              Мы гарантируем 100% конфиденциальность. Ваша информация не будет распространяться.
+              <br/>
+              <a target="_blank" href="https://www.iubenda.com/privacy-policy/7813884">Политика конфиденциальности</a>
+            </p>
+          </div>
+          <button class="r5mFeedback__submit-button submit-button r5m-action" type="submit">
+            <i class="fa fa-check"></i>
+            Получить консультацию
+          </button>
+        </form>
+      </div>
     </div>
   </div>
-</div>
 </div>
