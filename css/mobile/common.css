@@ -7,14 +7,7 @@
   text-align: center;
 }
 
-.r5m-dimmer .r5mFeedback {
-  width: 280px;
-}
 
-
-.r5m-dimmer .r5mFeedback__submit-button {
-  width: 280px;
-}
 
 .r5m-dimmer__container::before {
   margin: 0;
