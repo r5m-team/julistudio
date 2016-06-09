@@ -654,6 +654,15 @@ nav li a.active {
 nav li a:hover {
   color: #555;
 }
+.show-more ~ .single-section {
+    display: none;
+}
+.show-more {
+  color: #333;
+  margin: 20px auto;
+  font-size: 0.95em;
+  font-weight: bold;
+}
 .single-section {
   padding: 10px 10px 40px 10px;
 }
@@ -749,177 +758,181 @@ footer a {
 .order-subheader {
   margin-bottom: 5px;
 }
+.mk {
+    width: 100%;
+}
 .new-offer {
-  background: url(../images/bg_webinar.jpg) no-repeat;
-  background-size: cover;
-  padding: 40px;
-  font-size: 1.2rem;
+    background: url(../images/bg_webinar.jpg) no-repeat;
+    background-size: cover;
+    padding: 40px;
+    font-size: 1.2rem;
 }
 .new-offer-sale {
-  background: url(../images/bg_sale.jpg) no-repeat;
-  background-size: cover;
-  padding: 40px;
-  font-size: 1.2rem;
+    background: url(../images/bg_sale.jpg) no-repeat;
+    background-size: cover;
+    padding: 40px;
+    font-size: 1.2rem;
 }
 .new-offer-price {
-  color: red
+    color: red
 }
 .new-offer::before {
-  content: '';
-  display: inline-block;
-  height: 120px;
-  vertical-align: middle;
+    content: '';
+    display: inline-block;
+    height: 120px;
+    vertical-align: middle;
 }
 .new-offer__heading-big {
-  font-size: 2rem;
-  color: red;
+    font-size: 2rem;
+    color: red;
 }
 .new-offer__heading {
-  font-size: 2rem;
-  font-weight: bold;
+    font-size: 2rem;
+    font-weight: bold;
 }
 .new-offer__heading strike {
-  color: black;
+    color: black;
 }
 .new-offer-sale ul {
-  padding: 0;
-  list-style-type: none;
+    padding: 0;
+    list-style-type: none;
 }
 .new-offer-sale .offer__subscribe {
-  background: black;
-  background: rgba(0,0,0,0.8);
-  color: #f8f8f8;
+    background: black;
+    background: rgba(0, 0, 0, 0.8);
+    color: #f8f8f8;
 }
 .new-offer-sale .offer__subscribe:hover {
-  color: black;
-  border-color: black;
-  background: none;
+    color: black;
+    border-color: black;
+    background: none;
 }
 .new-offer-container {
-  background: rgba(0, 0, 0, 0.75);
-  
-  width: 100%;
-  min-height: 120px;
-  padding: 40px 20px;
-  box-sizing: border-box;
-  display: inline-block;
-  vertical-align: middle;
+    background: rgba(0, 0, 0, 0.75);
+    
+    width: 100%;
+    min-height: 120px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
 }
 .new-offer-sale .new-offer-container {
-  background: rgba(255,255,255, 0.8);
-  padding: 40px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px 20px;
 }
 .new-offer-sale .new-offer-container-wrapper {
-  color: black;
+    color: black;
 }
 .new-offer-container-wrapper {
-  text-align: center;
-  color: #fafafa;
-  width: 100%;
+    text-align: center;
+    color: #fafafa;
+    width: 100%;
 }
 .new-offer-container-wrapper::before {
-  content: '';
-  display: inline-block;
-  height: 120px;
-  vertical-align: middle;
+    content: '';
+    display: inline-block;
+    height: 120px;
+    vertical-align: middle;
 }
 .new-offer-container-wrapper__text {
-  box-sizing: border-box;
-  display: inline-block;
-  vertical-align: middle;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
 }
 .new-offer__heading,
-.new-offer__heading-middle, {
-  margin: 10px 0 0 0;
+.new-offer__heading-middle,
+{
+    margin: 10px 0 0 0;
 }
 .offer__subscribe {
-  color: black;
-  border: solid 1px;
-  border-radius: 4px;
-  padding: 10px 20px;
-  text-decoration: none;
-  display: inline-block;
-  background: #f8f8f8;
-  background: rgba(255,255,255,0.8);
-  transition: background-color 0.1s, color 0.1s;
+    color: black;
+    border: solid 1px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    background: #f8f8f8;
+    background: rgba(255, 255, 255, 0.8);
+    transition: background-color 0.1s, color 0.1s;
 }
 .offer__subscribe:hover {
-  color: white;
-  background: none;
+    color: white;
+    background: none;
 }
 .new-offer__content {
-  margin: 0;
+    margin: 0;
 }
 .new-offer__heading-small {
-  font-size: 0.8em;
-  line-height: 1;
-  vertical-align: top;
-  margin-bottom: 10px;
+    font-size: 0.8em;
+    line-height: 1;
+    vertical-align: top;
+    margin-bottom: 10px;
 }
 .offer__subscribe-wrapper {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 .r5m-dimmer .r5mFeedback p {
-  color: #2b2a29;
+    color: #2b2a29;
 }
 .offer {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 .offer .offer__feedback-wrapper {
-  width: 60%;
-  max-width: 500px;
-  min-width: 280px;
-  float: left;
-  padding: 0 20px 0;
-  box-sizing: border-box;
+    width: 60%;
+    max-width: 500px;
+    min-width: 280px;
+    float: left;
+    padding: 0 20px 0;
+    box-sizing: border-box;
 }
 .offer-bg {
-  position: relative;
-  float: left;
-  width: 40%;
+    position: relative;
+    float: left;
+    width: 40%;
 }
 .offer-bg__img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
 }
 .offer-bg__img.placeholder {
-  position: static;
-  max-width: 100%;
+    position: static;
+    max-width: 100%;
 }
 .offer-caption {
-  margin: 0 0 10px 0;
-  text-indent: 1.2em;
+    margin: 0 0 10px 0;
+    text-indent: 1.2em;
 }
 .offer-bg__img.color {
-  opacity: 0;
-  transition: opacity 0.5s;
+    opacity: 0;
+    transition: opacity 0.5s;
 }
 .offer-bg__img.color:hover {
-  opacity: 1;
+    opacity: 1;
 }
-.r5mFeedback__submit-button  {
-  background: #29a0d9;
-  border: solid 1px #1e7ba7;
-  color: white;
-  padding: 10px 15px;
-  border-radius: 2px;
-  font-size: 20px;
-  cursor: pointer;
+.r5mFeedback__submit-button {
+    background: #29a0d9;
+    border: solid 1px #1e7ba7;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 2px;
+    font-size: 20px;
+    cursor: pointer;
 }
 .r5mFeedback__submit-button:hover {
-  background: #2187b8;
+    background: #2187b8;
 }
 .r5mFeedback__input,
 .r5mFeedback__text {
-  border-radius: 2px;
+    border-radius: 2px;
 }
 .r5mFeedback__privacy-statement a {
-  color: #666;
+    color: #666;
 }
 .offer__feedback .r5mFeedback__privacy-statement {
-  margin: 0 0 10px 0;
+    margin: 0 0 10px 0;
 }
 .pricing {
   list-style-type: none;
