@@ -607,8 +607,11 @@ section {
   text-align: justify;
 }
 .content-p a,
-.content-p-order a { 
+.content-p-order a {
   color: inherit
+}
+.content-p.content-p-img {
+  text-indent: 0;
 }
 .header {
   text-align: center;
@@ -760,6 +763,9 @@ footer a {
 }
 .mk {
     width: 100%;
+}
+.about__text {
+  margin-left: 160px;
 }
 .new-offer {
     background: url(../images/bg_webinar.jpg) no-repeat;
@@ -933,6 +939,11 @@ footer a {
 }
 .offer__feedback .r5mFeedback__privacy-statement {
     margin: 0 0 10px 0;
+}
+.offer__feedback-wrapper.offer__feedback-wrapper-mk {
+  text-align: center;
+  margin: 0 auto;
+  float: none;
 }
 .pricing {
   list-style-type: none;
@@ -1194,5 +1205,8 @@ nav li a {
 }
 .new-offer-sale .offer__subscribe-wrapper {
   margin-top: 10px;
+}
+.about__text {
+  margin-left: 0;
 }
 }
