@@ -1,3 +1,14 @@
+.show-more ~ .single-section {
+    display: none;
+}
+
+.show-more {
+  color: #333;
+  margin: 20px auto;
+  font-size: 0.95em;
+  font-weight: bold;
+}
+
 .single-section {
   padding: 10px 10px 40px 10px;
 }

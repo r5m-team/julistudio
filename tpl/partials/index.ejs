@@ -1,126 +1,174 @@
 <%- include('./_header.ejs'); %>
 
 <section class="single-section flexible-container">
-  <div class="single-section-content-wrapper">
-    <div class="single-section-content">
-      <h2 class="section-header">
-        Скидка 70% на индивидуальную консультацию
-      </h2>
-      <p class="content-p">
-        На индивидуальной онлайн-консультации Вы получите модные рекомендации в зависимости от Вашего колорита внешности, особенностей фигуры
-        и актуальные для сезона &laquo;весна-лето 2016&raquo; советы по стилю.
-      </p>
-      <p class="content-p">
-        Продолжительность онлайн-консультации: 1,5 часа. Стоимость с учетом скидки: 490 руб.
-      </p>
-
-      <div class="new-offer-sale">
-        <div class="new-offer-container">
-          <div class="new-offer-container-wrapper">
-            <div class="new-offer-container-wrapper__text">
-              <p class="new-offer__content new-offer__heading">
-                <b>Индивидуальная консультация</b>
-              </p>
-              <p class="new-offer__heading-big new-offer__content">
-                со скидкой 70%
-              </p>
-              <p class="new-offer__heading new-offer__content">
-                <strike>1700руб.</strike> <span class="new-offer-price">490руб.<sup>*</sup></span>
-              </p>
-              <ul>
-                <li><i class="fa fa-check"></i>
-                  Определение вашего колорита внешности
+    <div class="single-section-content-wrapper">
+        <div class="single-section-content">
+            <h2 class="section-header">
+                Мастер-класс &laquo;Как найти свой стиль?&raquo;
+            </h2>
+            <p class="content-p">
+                21 июня в 19.00 в Томске я проведу мастер-класс на тему &laquo;Как найти свой стиль?&raquo;
+            </p>
+            <p class="content-p">
+                <img class="mk" src="/images/mk.jpg"/>
+            </p>
+            <h3 class="section-subheader">
+                Программа мастер-класса:
+            </h3>
+            <ul>
+                <li>
+                    1. Что такое стиль и как его выразить во внешнем облике?
                 </li>
-                <li><i class="fa fa-check"></i>
-                  Определение типа фигуры и подходящих фасонов
+                <li>
+                    2. Мода и стиль - в чём разница?
                 </li>
-                <li><i class="fa fa-check"></i>
-                  Индивидуальные модные рекомендации и советы по стилю
+                <li>
+                    3. Стилевые направления в одежде.
                 </li>
-              </ul>
-              <p class="new-offer__content notice">
-                <i>* - предложение действительно до 18 марта 2016г</i>
-              </p>
-              <p class="offer__subscribe-wrapper">
-                <a href="#" class="offer__subscribe r5m-action" data-action="r5mDimmer-show" data-type="order" data-text="Индивидуальная консультация">
-                  Записаться на консультацию
-                </a>
-              </p>
-            </div>
-          </div>
+                <li>
+                    4. Как найти свой стиль?
+                </li>
+            </ul>
+            <h3 class="section-subheader">
+                Принять участие в мастер-классе
+            </h3>
+            <p class="content-p">
+                Количество участников мастер-класса ограничено. Оставьте заявку с помощью формы ниже, чтобы забронировать себе место. Вы также можете задать интересующие Вас вопросы, и я с удовольствием на них отвечу.
+            </p>
+            <%- include('./_offer-mk.ejs', {is404: false}); %>
         </div>
-      </div>
-
     </div>
-  </div>
+</section>
+
+<p class="show-more r5m-action  flexible-container" data-action="page-removeDOM">
+    <a class="show-more" href="#more">Больше новостей...</a>
+</p>
+
+<section class="single-section flexible-container">
+    <div class="single-section-content-wrapper">
+        <div class="single-section-content">
+            <h2 class="section-header">
+                Скидка 70% на индивидуальную консультацию
+            </h2>
+            <p class="content-p">
+                На индивидуальной онлайн-консультации Вы получите модные рекомендации в зависимости от Вашего колорита внешности, особенностей фигуры и актуальные для сезона &laquo;весна-лето 2016&raquo; советы по стилю.
+            </p>
+            <p class="content-p">
+                Продолжительность онлайн-консультации: 1,5 часа. Стоимость с учетом скидки: 490 руб.
+            </p>
+
+            <div class="new-offer-sale">
+                <div class="new-offer-container">
+                    <div class="new-offer-container-wrapper">
+                        <div class="new-offer-container-wrapper__text">
+                            <p class="new-offer__content new-offer__heading">
+                                <b>Индивидуальная консультация</b>
+                            </p>
+                            <p class="new-offer__heading-big new-offer__content">
+                                со скидкой 70%
+                            </p>
+                            <p class="new-offer__heading new-offer__content">
+                                <strike>1700руб.</strike>
+                                <span class="new-offer-price">490руб.<sup>*</sup>
+                                </span>
+                            </p>
+                            <ul>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    Определение вашего колорита внешности
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    Определение типа фигуры и подходящих фасонов
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    Индивидуальные модные рекомендации и советы по стилю
+                                </li>
+                            </ul>
+                            <p class="new-offer__content notice">
+                                <i>* - предложение действительно до 18 марта 2016г</i>
+                            </p>
+                            <p class="offer__subscribe-wrapper">
+                                <a href="#" class="offer__subscribe r5m-action" data-action="r5mDimmer-show" data-type="order" data-text="Индивидуальная консультация">
+                                    Записаться на консультацию
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </section>
 
 <section class="single-section flexible-container">
-  <div class="single-section-content-wrapper">
-    <div class="single-section-content">
-      <h2 class="section-header">
-        Бесплатный вебинар о трендах
-      </h2>
-      <p class="content-p">
-        Глянцевые издания, телевидение, интернет диктуют модные тренды изо дня в день. На практике, самая сложная задача — понять, как можно грамотно применять тренды в своем гардеробе и создавать гармоничные образы.
-      </p>
-      <p class="content-p">
-        О том, как из всего многообразия трендов выбрать те, которые подойдут именно Вам, я расскажу на своем бесплатном вебинаре 11 марта «Как применять модные тенденции в своем гардеробе».
-      </p>
+    <div class="single-section-content-wrapper">
+        <div class="single-section-content">
+            <h2 class="section-header">
+                Бесплатный вебинар о трендах
+            </h2>
+            <p class="content-p">
+                Глянцевые издания, телевидение, интернет диктуют модные тренды изо дня в день. На практике, самая сложная задача — понять, как можно грамотно применять тренды в своем гардеробе и создавать гармоничные образы.
+            </p>
+            <p class="content-p">
+                О том, как из всего многообразия трендов выбрать те, которые подойдут именно Вам, я расскажу на своем бесплатном вебинаре 11 марта «Как применять модные тенденции в своем гардеробе».
+            </p>
 
-      <div class="new-offer">
-        <div class="new-offer-container">
-          <div class="new-offer-container-wrapper">
-            <div class="new-offer-container-wrapper__text">
-              <p class="new-offer__content">
-                <b>Бесплатный вебинар</b>
-              </p>
-              <p class="new-offer__heading-small new-offer__content">
-                совместно с Итальянской школой моды и стиля
-              </p>
-              <p class="new-offer__content">
-                <b>11 марта 2016г</b>
-              </p>
-              <h3 class="new-offer__heading-middle">
-                &laquo;Как применять модные тенденции в своем гардеробе&raquo;
-              </h3>
-              <p class="offer__subscribe-wrapper">
-                <a href="#" class="offer__subscribe r5m-action" data-action="r5mDimmer-show" data-type="webinar">
-                  Оставить заявку
-                </a>
-              </p>
+            <div class="new-offer">
+                <div class="new-offer-container">
+                    <div class="new-offer-container-wrapper">
+                        <div class="new-offer-container-wrapper__text">
+                            <p class="new-offer__content">
+                                <b>Бесплатный вебинар</b>
+                            </p>
+                            <p class="new-offer__heading-small new-offer__content">
+                                совместно с Итальянской школой моды и стиля
+                            </p>
+                            <p class="new-offer__content">
+                                <b>11 марта 2016г</b>
+                            </p>
+                            <h3 class="new-offer__heading-middle">
+                                &laquo;Как применять модные тенденции в своем гардеробе&raquo;
+                            </h3>
+                            <p class="offer__subscribe-wrapper">
+                                <a href="#" class="offer__subscribe r5m-action" data-action="r5mDimmer-show" data-type="webinar">
+                                    Оставить заявку
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <h3 class="section-subheader">
+                Программа вебинара:
+            </h3>
+            <ol>
+                <li>
+                    Что такое "модный тренд"?
+                </li>
+                <li>
+                    Зачем нужны модные тренды?
+                </li>
+                <li>
+                    Краткий обзор основных тенденций сезона «весна-лето 2016»
+                </li>
+                <li>
+                    Как применять модные тренды в своем гардеробе?
+                </li>
+                <li>
+                    Как подчеркнуть свой стиль модными аксессуарами?
+                </li>
+            </ol>
+            <p>
+                Буду рада видеть Вас в числе участников вебинара.
+            </p>
+            <p style="text-align: right">
+                <i>Юлиана Захарченко.</i>
+            </p>
         </div>
-      </div>
-      <h3 class="section-subheader">
-        Программа вебинара:
-      </h3>
-      <ol>
-        <li>
-          Что такое "модный тренд"?
-        </li>
-        <li>
-          Зачем нужны модные тренды?
-        </li>
-        <li>
-          Краткий обзор основных тенденций сезона «весна-лето 2016»
-        </li>
-        <li>
-          Как применять модные тренды в своем гардеробе?
-        </li>
-        <li>
-          Как подчеркнуть свой стиль модными аксессуарами?
-        </li>
-      </ol>
-      <p>
-        Буду рада видеть Вас в числе участников вебинара.
-      </p>
-      <p style="text-align: right">
-        <i>Юлиана Захарченко.</i>
-      </p>
     </div>
-  </div>
 </section>
 
 <%# include('./_offer.ejs'); %>
