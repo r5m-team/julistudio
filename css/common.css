@@ -28,6 +28,10 @@ section {
 }
 
 .content-p a,
-.content-p-order a { 
+.content-p-order a {
   color: inherit
+}
+
+.content-p.content-p-img {
+  text-indent: 0;
 }

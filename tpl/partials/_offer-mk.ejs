@@ -1,11 +1,6 @@
 <div class="offer clearfix">
-  <div class="offer-bg">
-    <img class="offer-bg__img placeholder" src="images/pricing/<%= locals.image404 ? image404 : 'test' %>-bw.jpg"/>
-    <img class="offer-bg__img black" src="images/pricing/<%= locals.image404 ? image404 : 'test' %>-bw.jpg"/>
-    <img class="offer-bg__img color" src="images/pricing/<%= locals.image404 ? image404 : 'test' %>.jpg"/>
-  </div>
-  <div class="offer__feedback-wrapper">
-    <div class="offer__feedback">
+  <div class="offer__feedback-wrapper offer__feedback-wrapper-mk">
+    <div class="offer__feedback ">
       <div class="r5mFeedback offer__feedback__form">
         <% if(locals.is404) { %>
           <p class="offer-caption">
@@ -18,7 +13,7 @@
             Вы также можете задать интересующие Вас вопросы, и я с удовольствием на них отвечу.
           </p>%>
         <% } %>
-        <form action="/feedback" class="r5mFeedback__form">
+        <form action="/feedback" class="r5mFeedback__form r5mFeedback__form-mk">
           <label class="r5mFeedback__label">
             <span class="r5mFeedback__placeholder">Введите Ваше имя*</span>
             <input class="r5mFeedback__input" name="name" required type="text"/>

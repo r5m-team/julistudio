@@ -2,7 +2,9 @@
     width: 100%;
 }
 
-
+.about__text {
+  margin-left: 160px;
+}
 
 .new-offer {
     background: url('../images/bg_webinar.jpg') no-repeat;
@@ -211,4 +213,11 @@
 
 .offer__feedback .r5mFeedback__privacy-statement {
     margin: 0 0 10px 0;
+}
+
+
+.offer__feedback-wrapper.offer__feedback-wrapper-mk {
+  text-align: center;
+  margin: 0 auto;
+  float: none;
 }
