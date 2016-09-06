@@ -613,6 +613,21 @@ section {
 .content-p.content-p-img {
   text-indent: 0;
 }
+.single-section-content q {
+    font-style: italic;
+    
+}
+.single-section-content h4 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.single-section-content .heading-list li {
+    font-size: 0.9rem;
+}
+.single-section-content .heading-list li p {
+    font-size: inherit;
+    margin-top: 0;
+}
 .header {
   text-align: center;
   margin-bottom: 40px;
@@ -942,7 +957,7 @@ footer a {
 }
 .offer__feedback-wrapper.offer__feedback-wrapper-mk {
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   float: none;
 }
 .pricing {
