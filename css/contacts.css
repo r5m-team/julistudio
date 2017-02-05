@@ -1,63 +1,59 @@
 .contacts {
-  margin: 20px 0;
+    margin: 20px 0;
 }
 
 .contacts__entry {
-  margin: 0;
+    margin: 0;
 }
 
 .contacts__entry__value {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .contacts__entry__label {
-  display: inline-block;
-  min-width: 200px;
+    display: inline-block;
+    min-width: 200px;
 }
 
 .contacts__entry__value a {
-  font: inherit;
-  font-weight: 600;
-  color: inherit;
-  text-decoration: none;
+    font: inherit;
+    font-weight: 600;
+    color: inherit;
+    text-decoration: none;
 }
 
 .contacts__entry__value a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .about__image {
-  float: left;
-  width: 150px;
-  height: 207px;
-  margin: 0 40px 0 0;
-  position: relative;
-
+    float: left;
+    width: 45%;
+    margin: 0 40px 0 0;
+    position: relative;
 }
 
 .about__image__img {
-  position: absolute;
-  top: 0;
-  left: 0
+    width: 100%;
 }
 
 .about__image__img.placeholder {
-  position: static;
+    position: static;
 }
 
 .about__image__img.color {
-  opacity: 0;
-  transition: opacity 0.5s;
+    opacity: 0;
+    transition: opacity 0.5s;
 }
 
 .about__image__img.color:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .content-p-order {
-  margin: 0;
+    margin: 0;
 }
 
 .order-subheader {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }

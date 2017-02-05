@@ -1,0 +1,44 @@
+<div class="offer clearfix">
+  <div class="offer__feedback-wrapper offer__feedback-wrapper-mk">
+    <div class="offer__feedback ">
+      <div class="r5mFeedback offer__feedback__form">
+        <h3 class="section-subheader">
+            Заказать подарочный сертификат.
+        </h3>
+        <p class="content-p" style="margin-bottom:0">
+          Оставьте заявку на покупку подарочного сертификаты с помощью формы ниже. 
+          Вы также можете задать интересующие Вас вопросы, и я с удовольствием на них отвечу.
+        </p>
+        <p class="content-p" style="margin-top: 0">
+            <b>Количество сертификатов ограничено.</b>
+        </p>
+        
+        <form action="/feedback" class="r5mFeedback__form r5mFeedback__form-mk">
+          <label class="r5mFeedback__label">
+            <span class="r5mFeedback__placeholder">Введите Ваше имя*</span>
+            <input class="r5mFeedback__input" name="name" required type="text"/>
+          </label>
+          <label class="r5mFeedback__label last">
+            <span class="r5mFeedback__placeholder">E-mail или телефон*</span>
+            <input class="r5mFeedback__input" name="email" type="text" required/>
+          </label>
+          <label class="r5mFeedback__label">
+            <span class="r5mFeedback__placeholder">Ваши комментарии или вопросы</span>
+            <textarea class="r5mFeedback__text" name="text"></textarea>
+          </label>
+          <input type="hidden" name="page" value="F14"/>
+          <div class="r5mFeedback__privacy-statement-container">
+            <p class="r5mFeedback__privacy-statement">
+              Мы гарантируем 100% конфиденциальность. Ваша информация не будет распространяться.
+              <br/>
+            </p>
+          </div>
+          <button class="r5mFeedback__submit-button submit-button r5m-action" type="submit">
+            <i class="fa fa-check"></i>
+            Заказать сертификат
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -13,14 +13,6 @@
   text-align: left;
 }
 
-
-.about__image {
-  float: none;
-  margin: 0 auto;
-  text-align: center;
-  background: url('../../images/about_color.jpg') no-repeat;
-}
-
 .contacts__entry__label {
   width: 100%;
 }
